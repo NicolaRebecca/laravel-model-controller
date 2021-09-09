@@ -1,1 +1,27 @@
-//
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(78, 92, 92);
+}
+
+.container{
+    max-width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+    .movies{
+        color: gainsboro;
+        margin-top: 10% ;
+        width: calc (100% / 10);
+        font-size: 14px;
+        text-align: center;
+        img{
+            width: 200px;
+            height: 220px;
+        }
+    }
+}
