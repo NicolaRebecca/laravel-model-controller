@@ -11,13 +11,10 @@
 
     @foreach($movies as $movie)
         
-        <h1>{{ $movie->name }}</h1>
-        <div>Genere: {{ $movie->genre }}</div>
-        <div>Anno: {{ $movie->relase_year }}</div>
-        <img src="{{ $movie->poster_path }}" alt="">
-        <div>{{ $movie->description }}</div>
-
-
+        <h1>{{ $movie->title }}</h1>
+        <div>Genere: {{ $movie->nationality }}</div>
+        <div>Anno: {{ $movie->date }}</div>
+        <div>{{ $movie->vote }}</div>
 
     @endforeach
 
