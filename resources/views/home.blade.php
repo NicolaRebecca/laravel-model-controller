@@ -15,9 +15,7 @@
         <div>Genere: {{ $movie->genre }}</div>
         <div>Anno: {{ $movie->relase_year }}</div>
         <img src="{{ $movie->poster_path }}" alt="">
-        <div>
-            Descrizione: {{ $movie->description }}
-        </div>
+        <div>{{ $movie->description }}</div>
 
 
 
